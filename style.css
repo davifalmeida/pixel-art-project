@@ -15,6 +15,19 @@ body {
     padding: 10px;
     box-shadow: 5px 5px 10px 0 black;
   }
+@media (max-width: 600px) {
+  #title {
+    font-size: 1.5em; /* Change the font size for smaller screens */
+  }
+  .color {
+    width: 20px; /* Change the size of color palette for smaller screens */
+    height: 20px;
+  }
+  .td {
+    height: 20px; /* Change the size of pixels for smaller screens */
+    width: 20px;
+  }
+}
   
   #palette-container {
     text-align: center;
